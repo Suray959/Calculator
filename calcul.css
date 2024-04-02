@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-mathematics-education-green-stripes-background-picture-image_1176975.jpg);
+    background-repeat: no-repeat;
+    width: max-content;
+    height: max-content;
+    background-size:1595px;
+}
+.screen{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 400px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+ 
+}
+.input{
+    width:100%;
+    font-size: 40px;
+    height: 70px;
+    border: none;
+    background-color:rgb(79, 185, 171) ;
+    color: black;
+    text-align: right;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+button{
+    background-color: rgb(219, 198, 15);
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid  rgb(67, 61, 5);
+    font-size: 25px;
+    color: black;
+
+}
+button:hover{
+    background-color: darkorange;
+}
+.equal{
+    background-color: cornflowerblue;
+}
+.equal:hover{
+    background-color: cornsilk;
+}
+.delete{
+    background-color: rgba(163, 186, 228, 0.857);
+}
+.delete:hover{
+    background-color: cornsilk;
+}
+.total{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap:20px;
+    padding: 20px;
+    background-color: rgb(208, 206, 202);
+}
+.operator{
+    background-color: rgb(224, 238, 145);
+}
+.operator:hover{
+    background-color: cornsilk; ;
+}
+
